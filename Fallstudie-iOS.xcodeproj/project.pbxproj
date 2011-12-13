@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DAB27014974CBF0051B6E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DAB26F14974CBF0051B6E8 /* UIKit.framework */; };
+		02DAB27214974CBF0051B6E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DAB27114974CBF0051B6E8 /* Foundation.framework */; };
+		02DAB27414974CBF0051B6E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DAB27314974CBF0051B6E8 /* CoreGraphics.framework */; };
+		02DAB27A14974CBF0051B6E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02DAB27814974CBF0051B6E8 /* InfoPlist.strings */; };
+		02DAB27C14974CBF0051B6E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB27B14974CBF0051B6E8 /* main.m */; };
+		02DAB28014974CBF0051B6E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB27F14974CBF0051B6E8 /* AppDelegate.m */; };
+		02DAB28314974CBF0051B6E8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB28214974CBF0051B6E8 /* FirstViewController.m */; };
+		02DAB28A14974CBF0051B6E8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB28914974CBF0051B6E8 /* SecondViewController.m */; };
+		02DAB2A014974E070051B6E8 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB29F14974E070051B6E8 /* FriendsViewController.m */; };
+		02DAB2A614974EC70051B6E8 /* FriendRequestsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB2A514974EC70051B6E8 /* FriendRequestsController.m */; };
+		02DAB2AA149751680051B6E8 /* wood_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DAB2A9149751680051B6E8 /* wood_tabbar@2x.png */; };
+		02DAB2AD149751CA0051B6E8 /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB2AC149751CA0051B6E8 /* StreamViewController.m */; };
+		02DAB2B0149751EB0051B6E8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB2AF149751EB0051B6E8 /* ProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02DAB26B14974CBF0051B6E8 /* Fallstudie-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fallstudie-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DAB26F14974CBF0051B6E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02DAB27114974CBF0051B6E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02DAB27314974CBF0051B6E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02DAB27714974CBF0051B6E8 /* Fallstudie-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fallstudie-iOS-Info.plist"; sourceTree = "<group>"; };
+		02DAB27914974CBF0051B6E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02DAB27B14974CBF0051B6E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02DAB27D14974CBF0051B6E8 /* Fallstudie-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fallstudie-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		02DAB27E14974CBF0051B6E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02DAB27F14974CBF0051B6E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02DAB28114974CBF0051B6E8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		02DAB28214974CBF0051B6E8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		02DAB28814974CBF0051B6E8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		02DAB28914974CBF0051B6E8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		02DAB29E14974E070051B6E8 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		02DAB29F14974E070051B6E8 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		02DAB2A414974EC70051B6E8 /* FriendRequestsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendRequestsController.h; sourceTree = "<group>"; };
+		02DAB2A514974EC70051B6E8 /* FriendRequestsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendRequestsController.m; sourceTree = "<group>"; };
+		02DAB2A9149751680051B6E8 /* wood_tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_tabbar@2x.png"; sourceTree = "<group>"; };
+		02DAB2AB149751CA0051B6E8 /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		02DAB2AC149751CA0051B6E8 /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
+		02DAB2AE149751EB0051B6E8 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		02DAB2AF149751EB0051B6E8 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DAB26814974CBF0051B6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DAB27014974CBF0051B6E8 /* UIKit.framework in Frameworks */,
+				02DAB27214974CBF0051B6E8 /* Foundation.framework in Frameworks */,
+				02DAB27414974CBF0051B6E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DAB26014974CBF0051B6E8 = {
+			isa = PBXGroup;
+			children = (
+				02DAB27514974CBF0051B6E8 /* Fallstudie-iOS */,
+				02DAB26E14974CBF0051B6E8 /* Frameworks */,
+				02DAB26C14974CBF0051B6E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02DAB26C14974CBF0051B6E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02DAB26B14974CBF0051B6E8 /* Fallstudie-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02DAB26E14974CBF0051B6E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02DAB26F14974CBF0051B6E8 /* UIKit.framework */,
+				02DAB27114974CBF0051B6E8 /* Foundation.framework */,
+				02DAB27314974CBF0051B6E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02DAB27514974CBF0051B6E8 /* Fallstudie-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				02DAB2AB149751CA0051B6E8 /* StreamViewController.h */,
+				02DAB2AC149751CA0051B6E8 /* StreamViewController.m */,
+				02DAB2AE149751EB0051B6E8 /* ProfileViewController.h */,
+				02DAB2AF149751EB0051B6E8 /* ProfileViewController.m */,
+				02DAB2A9149751680051B6E8 /* wood_tabbar@2x.png */,
+				02DAB27E14974CBF0051B6E8 /* AppDelegate.h */,
+				02DAB27F14974CBF0051B6E8 /* AppDelegate.m */,
+				02DAB28114974CBF0051B6E8 /* FirstViewController.h */,
+				02DAB29E14974E070051B6E8 /* FriendsViewController.h */,
+				02DAB2A414974EC70051B6E8 /* FriendRequestsController.h */,
+				02DAB2A514974EC70051B6E8 /* FriendRequestsController.m */,
+				02DAB29F14974E070051B6E8 /* FriendsViewController.m */,
+				02DAB28214974CBF0051B6E8 /* FirstViewController.m */,
+				02DAB28814974CBF0051B6E8 /* SecondViewController.h */,
+				02DAB28914974CBF0051B6E8 /* SecondViewController.m */,
+				02DAB27614974CBF0051B6E8 /* Supporting Files */,
+			);
+			path = "Fallstudie-iOS";
+			sourceTree = "<group>";
+		};
+		02DAB27614974CBF0051B6E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DAB27714974CBF0051B6E8 /* Fallstudie-iOS-Info.plist */,
+				02DAB27814974CBF0051B6E8 /* InfoPlist.strings */,
+				02DAB27B14974CBF0051B6E8 /* main.m */,
+				02DAB27D14974CBF0051B6E8 /* Fallstudie-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02DAB26A14974CBF0051B6E8 /* Fallstudie-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DAB29714974CBF0051B6E8 /* Build configuration list for PBXNativeTarget "Fallstudie-iOS" */;
+			buildPhases = (
+				02DAB26714974CBF0051B6E8 /* Sources */,
+				02DAB26814974CBF0051B6E8 /* Frameworks */,
+				02DAB26914974CBF0051B6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fallstudie-iOS";
+			productName = "Fallstudie-iOS";
+			productReference = 02DAB26B14974CBF0051B6E8 /* Fallstudie-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02DAB26214974CBF0051B6E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Bahnhofstrasse 24, 5400 Baden";
+			};
+			buildConfigurationList = 02DAB26514974CBF0051B6E8 /* Build configuration list for PBXProject "Fallstudie-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02DAB26014974CBF0051B6E8;
+			productRefGroup = 02DAB26C14974CBF0051B6E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02DAB26A14974CBF0051B6E8 /* Fallstudie-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02DAB26914974CBF0051B6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DAB27A14974CBF0051B6E8 /* InfoPlist.strings in Resources */,
+				02DAB2AA149751680051B6E8 /* wood_tabbar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DAB26714974CBF0051B6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DAB27C14974CBF0051B6E8 /* main.m in Sources */,
+				02DAB28014974CBF0051B6E8 /* AppDelegate.m in Sources */,
+				02DAB28314974CBF0051B6E8 /* FirstViewController.m in Sources */,
+				02DAB28A14974CBF0051B6E8 /* SecondViewController.m in Sources */,
+				02DAB2A014974E070051B6E8 /* FriendsViewController.m in Sources */,
+				02DAB2A614974EC70051B6E8 /* FriendRequestsController.m in Sources */,
+				02DAB2AD149751CA0051B6E8 /* StreamViewController.m in Sources */,
+				02DAB2B0149751EB0051B6E8 /* ProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02DAB27814974CBF0051B6E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02DAB27914974CBF0051B6E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02DAB29514974CBF0051B6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02DAB29614974CBF0051B6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02DAB29814974CBF0051B6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fallstudie-iOS/Fallstudie-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Fallstudie-iOS/Fallstudie-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02DAB29914974CBF0051B6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fallstudie-iOS/Fallstudie-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Fallstudie-iOS/Fallstudie-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DAB26514974CBF0051B6E8 /* Build configuration list for PBXProject "Fallstudie-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DAB29514974CBF0051B6E8 /* Debug */,
+				02DAB29614974CBF0051B6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02DAB29714974CBF0051B6E8 /* Build configuration list for PBXNativeTarget "Fallstudie-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DAB29814974CBF0051B6E8 /* Debug */,
+				02DAB29914974CBF0051B6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02DAB26214974CBF0051B6E8 /* Project object */;
+}
