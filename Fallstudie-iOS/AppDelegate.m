@@ -33,15 +33,19 @@
     // Override point for customization after application launch.
     UIViewController *streamController = [[StreamViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *streamNavigationController = [[UINavigationController alloc] initWithRootViewController:streamController];
+    streamNavigationController.tabBarItem.image = [UIImage imageNamed:@"OrderedList"];
     
     UIViewController *profileController = [[ProfileViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *profileNavigationController = [[UINavigationController alloc] initWithRootViewController:profileController];
+    profileNavigationController.tabBarItem.image = [UIImage imageNamed:@"ContactFlip"];
     
     UIViewController *friendsController = [[FriendsViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *friendsNavigationController = [[UINavigationController alloc] initWithRootViewController:friendsController];
+    friendsNavigationController.tabBarItem.image = [UIImage imageNamed:@"Friends"];
     
     UIViewController *friendRequestsController = [[FriendRequestsController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *friendRequestsNavigationController = [[UINavigationController alloc] initWithRootViewController:friendRequestsController];
+    friendRequestsController.tabBarItem.image = [UIImage imageNamed:@"Sort-User"];
     
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:streamNavigationController, profileNavigationController, friendsNavigationController, friendRequestsNavigationController, nil];

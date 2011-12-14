@@ -20,6 +20,10 @@
 		02DAB2AA149751680051B6E8 /* wood_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DAB2A9149751680051B6E8 /* wood_tabbar@2x.png */; };
 		02DAB2AD149751CA0051B6E8 /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB2AC149751CA0051B6E8 /* StreamViewController.m */; };
 		02DAB2B0149751EB0051B6E8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DAB2AF149751EB0051B6E8 /* ProfileViewController.m */; };
+		02E8133814991BED0052AB09 /* Friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E8133714991BED0052AB09 /* Friends@2x.png */; };
+		02E8133B14991C0B0052AB09 /* Sort-User@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E8133A14991C0B0052AB09 /* Sort-User@2x.png */; };
+		02E8133D14991C400052AB09 /* ContactFlip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E8133C14991C400052AB09 /* ContactFlip@2x.png */; };
+		02E8133F14991C630052AB09 /* OrderedList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E8133E14991C630052AB09 /* OrderedList@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		02DAB2AC149751CA0051B6E8 /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
 		02DAB2AE149751EB0051B6E8 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		02DAB2AF149751EB0051B6E8 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		02E8133714991BED0052AB09 /* Friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Friends@2x.png"; sourceTree = "<group>"; };
+		02E8133A14991C0B0052AB09 /* Sort-User@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sort-User@2x.png"; sourceTree = "<group>"; };
+		02E8133C14991C400052AB09 /* ContactFlip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ContactFlip@2x.png"; sourceTree = "<group>"; };
+		02E8133E14991C630052AB09 /* OrderedList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrderedList@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 		02DAB27514974CBF0051B6E8 /* Fallstudie-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				02E8133E14991C630052AB09 /* OrderedList@2x.png */,
+				02E8133C14991C400052AB09 /* ContactFlip@2x.png */,
+				02E8133A14991C0B0052AB09 /* Sort-User@2x.png */,
+				02E8133714991BED0052AB09 /* Friends@2x.png */,
 				02DAB2AB149751CA0051B6E8 /* StreamViewController.h */,
 				02DAB2AC149751CA0051B6E8 /* StreamViewController.m */,
 				02DAB2AE149751EB0051B6E8 /* ProfileViewController.h */,
@@ -176,6 +188,10 @@
 			files = (
 				02DAB27A14974CBF0051B6E8 /* InfoPlist.strings in Resources */,
 				02DAB2AA149751680051B6E8 /* wood_tabbar@2x.png in Resources */,
+				02E8133814991BED0052AB09 /* Friends@2x.png in Resources */,
+				02E8133B14991C0B0052AB09 /* Sort-User@2x.png in Resources */,
+				02E8133D14991C400052AB09 /* ContactFlip@2x.png in Resources */,
+				02E8133F14991C630052AB09 /* OrderedList@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +313,7 @@
 				02DAB29914974CBF0051B6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
